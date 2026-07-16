@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Professional portfolio for Tyler Tong featuring academic work, applied projects, and selected experience."
+    >
+    <title>Tyler Tong | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Tyler Tong home">
+        <span class="brand-mark">TT</span>
+        <span>Tyler Tong</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/hero-coastal-workspace.png" alt="" aria-hidden="true">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 id="hero-title">Tyler Tong</h1>
+          <p class="hero-copy">
+            A finance, technology, and data-focused builder drawn to clear
+            thinking, steady execution, and tools that turn analysis into useful
+            decisions.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Highlights">
+        <div>
+          <span class="metric">Finance</span>
+          <p>Financial analysis, investment research, and market-oriented coursework.</p>
+        </div>
+        <div>
+          <span class="metric">Technology</span>
+          <p>Personal builds, data tools, and product thinking with practical outcomes.</p>
+        </div>
+        <div>
+          <span class="metric">Coastal</span>
+          <p>A calm, organized visual style rooted in Carlsbad and San Luis Obispo.</p>
+        </div>
+      </section>
+
+      <section id="profile" class="section profile-section" aria-labelledby="profile-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="profile-title">Who I Am</h2>
+        </div>
+
+        <div class="tab-shell">
+          <div class="tabs" role="tablist" aria-label="Profile sections">
+            <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="about-panel" id="about-tab">
+              About
+            </button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="academic-panel" id="academic-tab">
+              Academic
+            </button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="beyond-panel" id="beyond-tab">
+              Beyond Class
+            </button>
+          </div>
+
+          <article class="tab-panel active" role="tabpanel" id="about-panel" aria-labelledby="about-tab">
+            <div class="about-layout">
+              <div>
+                <h3>Hi! I’m Tyler Tong.</h3>
+                <p>
+                  I’m a current senior at Cal Poly studying Business Administration
+                  with a concentration in Financial Management and minors in
+                  Computer Science and Statistics. Originally from Carlsbad,
+                  California, I’m interested in the intersection of finance,
+                  technology, and data-driven decision-making.
+                </p>
+                <p>
+                  I created this portfolio to share more about my background and
+                  highlight some of the projects I’ve completed and experiences
+                  I’ve gained throughout college.
+                </p>
+              </div>
+              <figure class="profile-photo">
+                <img src="assets/tyler-suit.jpeg" alt="Tyler Tong in a suit">
+              </figure>
+            </div>
+          </article>
+
+          <article class="tab-panel" role="tabpanel" id="academic-panel" aria-labelledby="academic-tab" hidden>
+            <h3>Academic Background</h3>
+            <dl class="academic-list">
+              <div>
+                <dt>Major</dt>
+                <dd>Business Administration</dd>
+              </div>
+              <div>
+                <dt>Concentration</dt>
+                <dd>Financial Management</dd>
+              </div>
+              <div>
+                <dt>Minors</dt>
+                <dd>Computer Science and Statistics</dd>
+              </div>
+              <div>
+                <dt>Academic Interests</dt>
+                <dd>Financial Analysis, Investment Research, Data Analytics, and Technology</dd>
+              </div>
+              <div>
+                <dt>Relevant Coursework</dt>
+                <dd>Advanced Corporate Finance, Security Analysis and Portfolio Management, Fixed Income, Applied Regression Analysis, and Data Structures</dd>
+              </div>
+            </dl>
+
+            <div class="honors-grid" aria-label="Academic honors">
+              <article>
+                <span>Dean’s List</span>
+                <p>Awarded for earning a quarterly GPA of 3.5 or higher; recognized in multiple quarters.</p>
+              </article>
+              <article>
+                <span>President’s List</span>
+                <p>Awarded for earning Dean’s List honors in all three quarters of an academic year; 2024–2025 and 2025–2026.</p>
+              </article>
+            </div>
+          </article>
+
+          <article class="tab-panel" role="tabpanel" id="beyond-panel" aria-labelledby="beyond-tab" hidden>
+            <h3>Beyond the Classroom</h3>
+            <p>
+              Some of the activities and interests I enjoy outside the classroom
+              include beach volleyball, volunteering, running, surfing, and
+              playing guitar.
+            </p>
+
+            <div class="beyond-grid">
+              <article class="beyond-card featured">
+                <img src="assets/beach-volleyball.jpeg" alt="Tyler playing beach volleyball with teammates">
+                <div>
+                  <span class="tag applied">Leadership</span>
+                  <h4>Cal Poly Men’s Beach Volleyball Club</h4>
+                  <p>
+                    Treasurer and active club member. This role combines team
+                    leadership, organization, and a sport that has been a big part
+                    of my college experience.
+                  </p>
+                  <a href="https://www.instagram.com/cpmensbeach?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer">
+                    Instagram
+                  </a>
+                </div>
+              </article>
+
+              <article class="beyond-card logo-card">
+                <div class="logo-frame">
+                  <img src="assets/slo-city-logo.png" alt="SLO City Church logo">
+                </div>
+                <h4>SLO City Church</h4>
+                <p>Volunteer supporting church activities and events.</p>
+                <a href="https://slocity.church/" target="_blank" rel="noreferrer">Website</a>
+              </article>
+
+              <article class="beyond-card interests-card">
+                <img src="assets/running.jpeg" alt="Tyler running outdoors">
+                <h4>Outside Interests</h4>
+                <p>Running, surfing, and playing guitar.</p>
+                <div class="interest-icons" aria-label="Personal interests">
+                  <span>Run</span>
+                  <span>Surf</span>
+                  <span>Guitar</span>
+                </div>
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projects-title">Academic and Non-Academic Projects</h2>
+        </div>
+
+        <div class="filter-bar" aria-label="Project filters">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="academic">Academic</button>
+          <button class="filter-button" type="button" data-filter="non-academic">Non-Academic</button>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card" data-category="academic">
+            <div class="project-media">
+              <img src="assets/student-managed-portfolio.png" alt="Cal Poly campus building with students walking outside">
+              <a href="#" aria-label="Student Managed Portfolio Project details coming soon">In Progress</a>
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <div class="tag-row">
+                  <span class="tag academic">Academic</span>
+                  <span class="tag focus">Finance</span>
+                  <span class="tag focus">Investment Research</span>
+                </div>
+                <span class="year">Upcoming 2026–2027</span>
+              </div>
+              <h3>Student Managed Portfolio Project</h3>
+              <p>
+                Cal Poly-affiliated senior project focused on helping manage a
+                $1 million student-managed investment portfolio during the
+                2026–2027 academic year. The project will involve sector
+                research, equity analysis, covered-option strategy evaluation,
+                analyst report production, investment recommendations, and
+                engagement with finance professionals.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="non-academic">
+            <div class="project-media">
+              <img src="assets/marketsignal-ai.png" alt="Market chart visualization for MarketSignal AI">
+              <a href="https://ai-market-analytics-platform.onrender.com/#home" target="_blank" rel="noreferrer" aria-label="Open MarketSignal AI platform">Open Platform</a>
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <div class="tag-row">
+                  <span class="tag applied">Non-Academic</span>
+                  <span class="tag focus">Finance</span>
+                  <span class="tag focus">AI</span>
+                </div>
+                <span class="year">Most Relevant</span>
+              </div>
+              <h3>MarketSignal AI</h3>
+              <p>
+                MarketSignal AI is a personal finance technology platform that
+                combines stock market data with foreign exchange rates, news, and
+                economic indicators. The site gives users of all experience levels
+                an interactive way to learn about markets, track price movement,
+                and forecast stock trends with support from an AI forecasting
+                assistant.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="academic">
+            <div class="project-media">
+              <img src="assets/surp-symposium.jpeg" alt="Tyler Tong presenting the Ex-Ante Cybersecurity Risk poster at the Cal Poly SURP Symposium">
+              <a href="assets/documents/surp-final-poster.pdf" target="_blank" rel="noreferrer" aria-label="Open SURP final research poster">Final Poster</a>
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <div class="tag-row">
+                  <span class="tag academic">Academic</span>
+                  <span class="tag focus">Research</span>
+                  <span class="tag focus">Finance</span>
+                </div>
+                <span class="year">High Impact</span>
+              </div>
+              <h3>Cal Poly Summer Undergraduate Research Program - Ex-ante Cybersecurity Risk</h3>
+              <p>
+                Research Question: How adequate are firms in their ex-ante
+                cybersecurity measures? Working with Professor Ndackyssa
+                Oyima-Antseleve and a fellow colleague, this project reviewed 50+
+                SEC filings as part of a broader study of 200+ U.S. companies,
+                identifying risks and trends in cybersecurity preparedness with
+                implications for research, investment analysis, financial
+                decision-making, and policy.
+              </p>
+              <div class="project-actions" aria-label="SURP research documents">
+                <a href="assets/documents/surp-final-poster.pdf" target="_blank" rel="noreferrer">Final Poster</a>
+                <a href="assets/documents/surp-timeline-presentation.pdf" target="_blank" rel="noreferrer">Research Timeline</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="academic">
+            <div class="project-media">
+              <img src="assets/redbull-fuel-your-adventure.png" alt="Hypothetical Fuel Your Adventure marketing campaign visual with adventure and analytics elements">
+              <a href="assets/documents/redbull-final-marketing-plan.pdf" target="_blank" rel="noreferrer" aria-label="Open Red Bull final marketing plan">Marketing Plan</a>
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <div class="tag-row">
+                  <span class="tag academic">Academic</span>
+                  <span class="tag focus">Marketing</span>
+                  <span class="tag focus">Analytics</span>
+                </div>
+                <span class="year">Final Project</span>
+              </div>
+              <h3>Hypothetical Marketing Campaign: Red Bull - Fuel Your Adventure</h3>
+              <p>
+                A research-driven marketing plan for a hypothetical Red Bull
+                campaign built around the slogan “Fuel Your Adventure.” The
+                project analyzes brand positioning, competitive dynamics, target
+                customer segments, pricing and distribution strategy, and a
+                promotional media mix across retail placement, influencers,
+                Snapchat, TikTok, Instagram, public relations, and word of mouth,
+                with forecasted reach, sales, profit, and ROMI estimates.
+              </p>
+              <div class="project-actions" aria-label="Red Bull marketing campaign document">
+                <a href="assets/documents/redbull-final-marketing-plan.pdf" target="_blank" rel="noreferrer">View Marketing Plan</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section timeline-section" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Relevant Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <div class="experience-logo">
+              <img src="assets/teradata-logo.png" alt="Teradata logo">
+            </div>
+            <div class="experience-role">
+              <span>Jun 2026 - Present</span>
+              <h3>FP&amp;A Intern - Global Services</h3>
+            </div>
+            <p>
+              <strong>Teradata</strong> · San Diego, California. Finance internship
+              experience supporting global services work, business analysis, and
+              professional finance operations.
+            </p>
+          </article>
+          <article>
+            <div class="experience-logo">
+              <img src="assets/cal-poly-ocob-logo.png" alt="Cal Poly Orfalea College of Business logo">
+            </div>
+            <div class="experience-role">
+              <span>Apr 2026 - Jun 2026</span>
+              <h3>Spring Undergraduate Research Assistant</h3>
+            </div>
+            <p>
+              <strong>Cal Poly Orfalea College of Business</strong>. Researched
+              applications of large language models in financial analysis by
+              evaluating model outputs for accuracy, consistency, usability,
+              operational implications, and strategic opportunities in
+              AI-enabled finance.
+            </p>
+          </article>
+          <article>
+            <div class="experience-logo">
+              <img src="assets/cal-poly-ocob-logo.png" alt="Cal Poly Orfalea College of Business logo">
+            </div>
+            <div class="experience-role">
+              <span>Jun 2025 - Oct 2025</span>
+              <h3>Undergraduate Research Assistant</h3>
+            </div>
+            <p>
+              <strong>Cal Poly Summer Undergraduate Research Program</strong>.
+              Reviewed 50+ SEC filings as part of a broader study of 200+ U.S.
+              companies, identifying ex-ante cybersecurity preparedness risks
+              and presenting findings at the Cal Poly SURP Symposium.
+            </p>
+          </article>
+          <article>
+            <div class="experience-logo">
+              <img src="assets/beach-volleyball-logo.png" alt="Cal Poly Men's Beach Volleyball Club logo">
+            </div>
+            <div class="experience-role">
+              <span>Jun 2026 - Present</span>
+              <h3>Treasurer</h3>
+            </div>
+            <p>
+              <strong>Cal Poly Men’s Beach Volleyball Club</strong>. Oversees
+              club finances, funding requests, budget tracking, and
+              ASI-compliant collection, tracking, and deposit procedures.
+            </p>
+          </article>
+          <article>
+            <div class="experience-logo">
+              <img src="assets/asi-logo.png" alt="Associated Students, Inc. logo">
+            </div>
+            <div class="experience-role">
+              <span>Apr 2025 - Present</span>
+              <h3>Office Student Assistant - Poly Escapes</h3>
+            </div>
+            <p>
+              <strong>Cal Poly Associated Students, Inc.</strong> · San Luis
+              Obispo, California. Supports administrative operations by logging
+              rental activity, assisting with transaction reconciliation, and
+              maintaining accurate records for Poly Escapes participants.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Ready for review.</h2>
+          <p>
+            Reach out through email or connect on LinkedIn for applications,
+            opportunities, and project-related conversations.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:tntong@calpoly.edu">School Email</a>
+          <a class="button secondary" href="mailto:tytong12@gmail.com">Personal Email</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/tyler-tong/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Tyler Tong. Built for applications and ongoing work.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
