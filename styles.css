@@ -564,7 +564,8 @@ h3 {
   position: absolute;
 }
 
-.project-media a {
+.project-media a,
+.status-pill {
   align-items: center;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.75);
@@ -579,6 +580,10 @@ h3 {
   position: absolute;
   text-decoration: none;
   z-index: 1;
+}
+
+.status-pill {
+  cursor: default;
 }
 
 .project-content {
